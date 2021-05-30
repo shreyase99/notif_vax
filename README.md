@@ -1,5 +1,6 @@
 # notif_vax
-Notifies user with a push notification when vaccine slots are available
+Notifies user with a push notification when vaccine slots are available.
+
 Also records vaccine availability datapoints in a JSON dump
 
 ### Instructions:
