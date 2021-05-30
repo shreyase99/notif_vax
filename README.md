@@ -9,7 +9,7 @@ Also records vaccine availability datapoints in a JSON dump
 4. Download Pushover App on phone, login with same credentials. 
 5. Set suitable ringtones, enable autostart, disbale power save, and lockscreen notifications.
 6. Install the dependencies from requirements.txt
-7. Find state ID (https://cdn-api.co-vin.in/api/v2/admin/location/states) and then district ID (https://cdn-api.co-vin.in/api/v2/admin/location/districts/**stateID**) from the API links
-8. Modift the global variables in the script (Age, District/Pincode, Dose, Logging)
+7. Find state ID (from https://cdn-api.co-vin.in/api/v2/admin/location/states) and then district ID (from https://cdn-api.co-vin.in/api/v2/admin/location/districts/ **stateID**). 
+8. Modify the global variables in the script (Age, District/Pincode, Dose, Logging)
 9. Alternatively, PINCODE can be used instead of District ID. Uncomment the 'url' variable declaration suitably.
 7. Start the notif_vax.py script in a detached terminal (screen).  
